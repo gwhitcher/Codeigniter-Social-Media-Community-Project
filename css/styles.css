@@ -1,0 +1,110 @@
+/* MAIN STYLES */
+body {
+	background: #000;
+	font-family: Arial;
+	font-size: 14px;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#111111));
+	/* Safari 5.1+, Chrome 10+ */
+	background: -webkit-radial-gradient(circle, #1a82f7, #000000);
+	/* Firefox 3.6+ */
+	background: -moz-radial-gradient(circle, #1a82f7, #000000);
+	/* IE 10 */
+	background: -ms-radial-gradient(circle, #1a82f7, #000000);
+}
+
+a, a:visited {
+	color: #1a82f7;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1a82f7;
+	text-decoration: underline;
+}
+
+h1,h2,h3,h4,h5,h6,h7 {
+	padding: 0px;
+	margin: 0px;	
+}
+
+/* STRUCTURE */
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background: #FFF;
+	padding: 15px;
+	border: 2px solid #000;
+	border-radius: 10px;
+}
+
+header {
+	clear: both;
+	text-align: center;
+}
+
+nav {
+	clear: both;
+}
+
+nav a, nav a:visited {
+	color: #000;
+}
+
+nav ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+nav li {
+	float: left;
+	padding: 10px 20px 10px 20px;
+}
+
+section {
+	clear: both;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+}
+
+/* PROFILES */
+
+#profileleft {
+	float: left;
+	width: 165px;
+	padding: 5px;
+	text-align: center;	
+}
+
+#profileright {
+	float: right;
+	width: 715px;
+}
+
+#profile-friends img {
+	float: left;
+	padding: 1px;
+}
+
+/* POSTS */
+
+article {
+	padding: 5px;
+	min-height: 90px;	
+}
+
+article #feedimage {
+	float: left;
+	padding-right: 5px;
+}
+
+article #posttitle {
+	clear: right;
+	padding-bottom: 2px;
+}
